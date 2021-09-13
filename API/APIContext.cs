@@ -13,6 +13,7 @@ namespace API
         public DbSet<Medicamento> Medicamentos { get; set; }
         public DbSet<Receita> Receitas { get; set; }
         public DbSet<Pessoa> Pessoas { get; set; }
+        public DbSet<Farmacia> Farmacia { get; set; }
         public APIContext
             (DbContextOptions<APIContext>options) : base(options)
         {
